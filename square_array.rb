@@ -3,5 +3,6 @@ def square_array(array)
   array.each do |element|
     sq = element*element
     array2=[sq]
+    return array2
   end
 end
